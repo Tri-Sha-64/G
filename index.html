@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="heart.ico" />
+    <title>The Gates at Parkside Village</title>
+    <style type="text/css">
+
+a { text-decoration: none; }
+  
+  /* This forces the color change even if a font tag is present */
+  a:hover, a:hover font { 
+    color: red !important; 
+  }
+
+
+        /* General Reset */
+        body {
+            background-color: #000000;
+            margin: 0;
+            padding: 10px;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        /* Container for the whole site */
+        .site-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 5px solid #794B15;
+            background-color: #794020;
+        }
+
+        /* Top and Bottom Decorative Bars */
+        .decorative-bar {
+            width: 100%;
+            height: 28px;
+            display: block;
+        }
+
+        /* Main Body Area */
+        .main-container {
+            background-color: #ffffff;
+            display: flex;
+            flex-wrap: wrap; /* This makes it responsive! */
+            padding: 10px;
+            gap: 20px;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            flex: 1 1 180px; /* Grow, shrink, base width */
+            background-image: url('gates-sidebar.png');
+            padding: 10px;
+            min-width: 260px;
+        }
+
+        /* Content Styling */
+        .content {
+            flex: 2 1 400px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Navigation Menu */
+        .nav-menu {
+            border: 5px solid #794B15;
+            background: #fff;
+            width: 100%;
+        }
+        .nav-item {
+            border-bottom: 1px solid #794B15;
+            padding: 10px;
+        }
+        .nav-item a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+        }
+        .nav-item:hover { background-color: #f2f3f4; }
+
+        /* Feature Image Box */
+        .feature-box {
+            border: 5px solid #F2F3F4;
+            background-image: url('thegatesatparksidevillage WC.png');
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .welcome-text {
+            text-align: left;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        /* Media Query for Phones */
+        @media (max-width: 600px) {
+            .main-container {
+                flex-direction: column; /* Stacks sidebar on top of content */
+            }
+            .content {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="site-wrapper">
+    <img src="gates-top.png" class="decorative-bar" alt="border">
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <center>
+                <img src="gates-logo_oval.png" width="260" alt="Logo">
+            </center>
+            <br>
+             <table border="5" bordercolor="#794B15" cellpadding="0" width="260" class="menu-table">
+
+                <tr><td><b><a href="index.html">Home</a></b></td></tr>
+                                <tr><td><b><a href="Contact.html">Contact</a></b></td></tr>
+                                <tr><td><b><a href="News.html">News</a></b></td></tr>
+                                <tr><td><b><a href="Roster.html">Roster</a></b></td></tr>
+                                <tr><td><b><a href="Documents.html">Forms and Documents</a></b></td></tr>
+                                <tr><td><b><a href="Services.html">Services</a></b></td></tr>
+                                <tr><td><b><a href="Directions.html">Directions</a></b></td></tr>
+                            </table>
+
+        </aside>
+
+        <main class="content">
+            <div style="margin-bottom: 15px;">
+                <img src="america.gif" width="60" style="vertical-align: middle;">
+                <span style="font-family: 'Monotype Corsiva', cursive; font-size: 1.5rem; color: #000;">
+                    <script>
+                        const now = new Date();
+                        document.write(now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }));
+                    </script>
+                </span>
+            </div>
+
+            <div class="feature-box"></div>
+
+            <div class="welcome-text">
+                <h3>Welcome to The Gates at Parkside Village</h3>
+                <p>A beautiful townhome community located across the street from Kennesaw Mountain National Battlefield Park and within easy walking distance of the square in historic downtown Marietta, Georgia.</p>
+            </div>
+        </main>
+    </div>
+
+    <img src="gates-top.png" class="decorative-bar" alt="border">
+</div>
+
+</body>
+</html>
+
+</table>
+<tr>
+<TD>
+<div align="center" style="margin-top: 20px;">
+          <font color="#a6acaf" face="Great Vibes" size="4">
+            Site Modified: 
+            <script type="text/javascript">
+              document.write(document.lastModified);
+            </script>
+          </font>
+        </div>
+</TR>
+</TD>
